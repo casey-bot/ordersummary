@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    width: 375px;
+    height: 667px;
+    background-position: bottom 300px right 1px;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+    border-radius: 20px;
+    width: 335px;
+    box-shadow: 0 0 30px hsl(224, 46%, 76%);
+    margin: auto;
+}
+
+.hero {
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
+}
+
+h1, h2 {
+    color: hsl(223, 47%, 23%);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 1.38rem;
+    padding: 25px 25px 0 25px;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.desc {
+    font-size: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding: 20px 30px 0 30px;
+    font-weight: 500;
+}
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    margin: 20px 0 20px 0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 86%;
+    height: 80px
+}
+.plan > img {
+    padding: 10px;
+}
+
+.plan > .plan-price {
+  padding-right: 35px
+}
+
+.plan > .plan-price > h2 {
+    font-size: 16px;
+    font-weight: 900;
+   
+}
+
+.plan > .plan-price > p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+.plan > a {
+    font-size: .9rem;
+    font-weight: 700;
+    color:hsl(245, 75%, 52%);
+    padding-right: 10px;
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    font-family: "Red Hat Display", sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 86%;
+    height: 47px; 
+    box-shadow: 0 4px 20px  hsl(224, 40%, 71%);
+}
+
+.btn:hover {
+    background-color: hsla(245, 75%, 52%, 0.753);
+    cursor: pointer;
+}
+
+a:hover {
+    color: hsla(245, 75%, 52%, 0.753);
+    text-decoration: none;
+}
+
+h3:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+h3 {
+    color:hsl(224, 23%, 55%);
+    font-size: 1rem;
+    padding: 20px 0 30px 0;
+    font-weight: 900;
+}
+
+
+@media (min-width: 640px) {
+    .body {
+        background-image: url("./images/pattern-background-desktop.svg");
+        background-size: cover;
+        background-color: hsl(225, 100%, 94%);
+        width: 1440px;
+        background-position: bottom 300px right 1px;
+        background-repeat:no-repeat;
+    }
+
+    .container {
+        width: 375px;
+        margin-top: 4rem;
+    }
+
+
+
+
+
+
+}
